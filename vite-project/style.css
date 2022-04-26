@@ -7,6 +7,19 @@
   margin-top: 60px;
 }
 
+main {
+  position: absolute;
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  grid-template-columns: repeats(12, 1fr);
+}
+
 canvas {
   position: fixed;
   top: 0;
